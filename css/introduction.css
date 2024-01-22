@@ -1,0 +1,111 @@
+header {
+  background-image: url(../image_files/introduction_background.jpg);
+  height: 800px;
+}
+
+h1 {
+  padding-top: 300px;
+}
+
+/*Main section*/
+
+section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 30px 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  padding: 20px;
+}
+
+.section-1 {
+  display: flex;
+  width: 100%;
+  background-color: rgb(183, 127, 52);
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+
+.topic {
+  display: flex;
+  justify-content: left;
+  text-align: right;
+  width: 100%;
+  padding: 30px 0px 30px 50px;
+  font-size: 40px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+}
+
+.para-1 {
+  display: flex;
+  width: 50%;
+  padding: 20px 20px;
+  text-align: justify;
+  background-color: transparent;
+  box-shadow: 2px 5px 10px 2px;
+  border-radius: 20px;
+}
+
+.map {
+  width: 50%;
+  margin-left: 30px;
+  height: 205px;
+  background-color: transparent;
+  box-shadow: 2px 5px 10px 2px;
+  border-radius: 20px;
+
+}
+
+.image-1 {
+  width: 70%;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.image-1:hover {
+  scale: 1.05;
+}
+
+table,th,td{
+  border: 3px solid;
+  border-color: whitesmoke;
+  border-collapse: collapse;
+  padding: 2rem;
+  color: whitesmoke;
+}
+.table-1{
+
+padding-right: 2rem;
+padding-bottom: 4rem;
+text-align: start;
+display: flex;
+text-align: center;
+
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
